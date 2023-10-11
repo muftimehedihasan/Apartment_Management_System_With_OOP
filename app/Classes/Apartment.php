@@ -28,10 +28,10 @@ abstract public function calculateRent();
 // in abstract class we have a method called displayApartmentDetails
 // in displayApartmentDetails we have display properties
 public function displayApartmentDetails(){
-    echo "Apartment Number: " . $this->apartmentNumber . "<br>";
-    echo "Area: " . $this->area . "<br>";
-    echo "Number of Bedrooms: " . $this->numberofBedrooms . "<br>";
-    echo "Monthly Rent: " . $this->rent . "<br>";
+    echo "Apartment Number: " . $this->apartmentNumber . "\n";
+    echo "Area: " . $this->area . "\n";
+    echo "Number of Bedrooms: " . $this->numberofBedrooms . "\n";
+    echo "Monthly Rent: " . $this->rent . "\n";
 }
 
 // in abstract class we have a method called getApartmentNumber

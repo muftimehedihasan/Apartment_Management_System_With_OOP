@@ -2,6 +2,7 @@
 
 namespace App\Traits;
 
+// This is a trait for extra features
 trait HasBalcony{
     protected $balcony;
 
